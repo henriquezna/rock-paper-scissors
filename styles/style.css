@@ -1,0 +1,42 @@
+body{
+    background-color: #ace3ff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    color: #ff9d5c;
+    text-shadow: 2px 2px #8b542f;
+}
+h1{
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+}
+#choices{
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+}
+#results{
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+#score{
+    grid-column: 2;
+    grid-row: 4;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    color: #ffb3ac;
+    box-shadow: 10px 10px;
+}

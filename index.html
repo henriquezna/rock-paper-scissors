@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <head>
     <title>ROCK PAPER SCISSORS</title>
-    <script src="scripts/game.js"></script>
-</head>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/game.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></head>
 <Body>
-    ROCK PAPER SCISSORS
+    <h1>ROCK PAPER SCISSORS</h1>
+
+    <div id="choices">
+    <button onclick="playRound('Rock')"><i class="far fa-hand-rock"></i></button>
+    <button onclick="playRound('Paper')"><i class="far fa-hand-paper"></i></button>
+    <button onclick="playRound('Scissors')"><i class="far fa-hand-scissors"></i></button>
+    </div>
+
+    <div id="results">
+        RESULTS
+    </div>
+
+    <div id="score">
+        SCORE
+    </div>
 </Body>
